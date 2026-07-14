@@ -34,7 +34,7 @@ def run_ecommerce_pipeline(data_path):
     final_pipeline_df.to_csv("clean_ecommerce_master.csv", index=False)
     
     print("✅ Pipeline Execution Complete. Data is ready for analysis.")
-
+    
 if __name__ == "__main__":
     # Point this to wherever the raw files are stored
-    run_ecommerce_pipeline("/kaggle/input/brazilian-ecommerce")
+    run_ecommerce_pipeline("brazilian-ecommerce")

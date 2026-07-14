@@ -27,7 +27,9 @@ def run_ecommerce_pipeline(data_path):
     # --- PHASE 3: Product Enrichment ---
     print("[3/4] Connecting product catalog for business intelligence...")
     products_df = pd.read_csv(os.path.join(data_path, "olist_products_dataset.csv"))
-    geolocation_df = pd.read_csv(os.path.join(data_path, "olist_geolocation_dataset.csv.zip"))
+    import zipfile
+    with zipfile.ZipFile(os.path.join(data_path, "olist_geolocation_dataset.csv.zip")) as z:
+        geolocation_df = pd.read_csv(z.open("olist_geolocation_dataset.csv"))
     final_pipeline_df = pd.merge(master_df, products_df, on='product_id', how='left')
 
     # --- PHASE 4: Exporting Final Deliverable ---

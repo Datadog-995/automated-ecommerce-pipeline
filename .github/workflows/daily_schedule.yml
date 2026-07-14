@@ -5,7 +5,7 @@ on:
   schedule:
     # This specific code (cron) means: "Run at midnight, every single day"
     - cron: '0 0 * * *'
-  
+
   # This line allows you to also trigger it manually by clicking a button on GitHub
   workflow_dispatch:
 
@@ -25,7 +25,15 @@ jobs:
           python-version: '3.10'
 
       - name: Install Data Engineering Libraries
-        run: pip install pandas numpy
+        run: |
+          pip install pandas numpy
 
-      - name: Execute E-Commerce Pipeline Script
-        run: python ecommerce_pipeline.py
+      - name: Run E-Commerce Data Pipeline
+        run: |
+          python ecommerce_pipeline.py
+
+      - name: Upload Cleaned E-Commerce Data Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cleaned_ecommerce_data
+          path: cleaned_ecommerce_data.csv

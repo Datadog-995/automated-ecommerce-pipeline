@@ -3,6 +3,9 @@
 ## Overview
 This repository contains a production-ready Python pipeline designed to ingest, clean, and merge messy, multi-table e-commerce data. It transforms raw, disconnected operational logs into a single, clean, dashboard-ready financial ledger.
 
+📊 Note on Datasets: Due to the large file sizes of the raw Brazilian e-commerce datasets, GitHub may not display the web preview of some ⁠.csv⁠ files. However, the complete datasets are fully intact in the repository and will download normally.
+
+
 ## 🎯 The Business Problem Solved
 E-commerce businesses often suffer from disconnected systems (e.g., sales data separated from product catalogs and shipping logs). Manual merging in spreadsheets causes crashes, data loss, and inaccurate revenue reporting. 
 

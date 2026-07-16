@@ -21,8 +21,8 @@ E-commerce businesses often suffer from disconnected systems (e.g., sales data s
 
 ## 🚀 Impact
 Processes 100,000+ relational database rows in under 2 seconds, entirely bypassing the need for manual Excel VLOOKUPs, saving hours of weekly administrative overhead and protecting database integrity.
+<img width="1600" height="889" alt="Brazilian_ECommerce_Scale" src="https://github.com/user-attachments/assets/c7b039d2-1946-4b43-9bc3-cbaf009aef78" />
 
-### Web ScrapingSuccess Rate<img width="1600" height="1600" alt="Price_Extraction_Success" src="https://github.com/user-attachments/assets/7de68192-3b79-4c8d-b8fd-53cf192c01bc" />
 
-<img width="1600" height="889" alt="Brazilian_ECommerce_Scale" src="https://github.com/user-attachments/assets/668c6f9d-ee89-4c65-9b71-500198d9b4e7" />
-
+###  Web Scraping Success Rate
+<img width="1600" height="1600" alt="Price_Extraction_Success (1)" src="https://github.com/user-attachments/assets/c06156d8-d545-43d6-af75-b04abc1e56fd" />

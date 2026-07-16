@@ -21,3 +21,5 @@ E-commerce businesses often suffer from disconnected systems (e.g., sales data s
 
 ## 🚀 Impact
 Processes 100,000+ relational database rows in under 2 seconds, entirely bypassing the need for manual Excel VLOOKUPs, saving hours of weekly administrative overhead and protecting database integrity.
+<img width="1600" height="889" alt="Brazilian_ECommerce_Scale" src="https://github.com/user-attachments/assets/668c6f9d-ee89-4c65-9b71-500198d9b4e7" />
+

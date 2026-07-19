@@ -25,10 +25,11 @@ The dataset contained significant integrity failures that I resolved to ensure r
 
 ## Key Insights & Visualizations
 *After cleaning, I generated the following reports to validate the dataset's integrity:*
+#### 1. Top 10 Selling Products by Total Revenue
+<img width="1200" height="600" alt="top_selling_products (1)" src="https://github.com/user-attachments/assets/72cd4ea4-8022-4ddd-869f-fcd5a300610d" />
 
-![Revenue by Product](revenue_by_product.png)
-![Payment Methods](payment_methods.png)
-![Monthly Sales Trends](monthly_sales_trend.png)
+#### 2. Payment Methods Breakdown
+<img width="800" height="500" alt="payment_methods (1)" src="https://github.com/user-attachments/assets/9f2ce8ba-c73a-45f2-a722-ee7844013e20" />
 
 ## Repository Contents
 * `raw_financial_transactions.csv`: The original, uncleaned source data.

@@ -1,6 +1,5 @@
 # Automated E-commerce ETL Pipeline
-
-This project is an automated Data Engineering pipeline designed to streamline product data management.
+> 📊 **Portfolio Focus:** This project demonstrates my ability to design, build, and deploy an automated, production-ready ETL pipeline. It showcases programmatic data extraction, robust schema validation using Pandera, and structured database storage, moving beyond manual data auditing into scalable data engineering.
 
 ### Project Workflow
 

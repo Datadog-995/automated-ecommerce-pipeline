@@ -19,8 +19,7 @@ df['Quantity_Imputed'] = df['Quantity'].isna().astype(int)
 # Impute missing 'Price'
 df['Price'] = df.apply(
     lambda row: median_prices.get(row[category_col], df['Price'].median()) if pd.isna(row['Price']) else row['Price'],
-    axis=1
-)
+    axis=1)
 
 # Impute missing 'Quantity'
 quantity_median = df['Quantity'].median()
